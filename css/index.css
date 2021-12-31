@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.top {
+  width: auto;
+  height: 86px;
+  background-color: #ff84b2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 23px;
+}
+.top .left {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: start;
+}
+.top .left img {
+  margin-right: 57px;
+}
+.top .left ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.top .left ul li {
+  font-size: 20px;
+  line-height: 66px;
+  text-align: center;
+}
+.top .right {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.top .right ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.top .right ul li {
+  font-size: 20px;
+  line-height: 66px;
+  text-align: center;
+}
+.top .right img {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+#dowebok .section1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#dowebok .section1 video {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  transform: scaleX(105%) scaleY(105%) translateY(-10%);
+  opacity: 0.7;
+}
+#dowebok .section1 .title {
+  position: absolute;
+  color: white;
+  bottom: 200px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+#dowebok .section1 .title .big-title {
+  display: flex;
+  vertical-align: bottom;
+}
+#dowebok .section1 .title .big-title h1 {
+  margin: 0;
+  font-size: 72px;
+}
+#dowebok .section1 .title .big-title h2 {
+  margin: 0;
+  line-height: 72px;
+  font-size: 36px;
+  font-weight: 400;
+  transform: translateY(32px);
+  text-align: end;
+}
